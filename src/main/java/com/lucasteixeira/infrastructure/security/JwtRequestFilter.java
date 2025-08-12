@@ -1,4 +1,4 @@
-package com.lucasteixeira.com.lucasteixeira.infrastructure.security;
+package com.lucasteixeira.infrastructure.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

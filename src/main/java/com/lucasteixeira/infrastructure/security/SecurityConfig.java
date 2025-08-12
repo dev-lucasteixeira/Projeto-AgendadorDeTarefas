@@ -1,4 +1,4 @@
-package com.lucasteixeira.com.lucasteixeira.infrastructure.security;
+package com.lucasteixeira.infrastructure.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -58,8 +58,10 @@ public class SecurityConfig {
     // Configura o PasswordEncoder para criptografar senhas usando BCrypt
     @Bean
     public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder(); // Retorna uma instância de BCryptPasswordEncoder
+        return new BCryptPasswordEncoder();
     }
+
+
 
     // Configura o AuthenticationManager usando AuthenticationConfiguration
     @Bean

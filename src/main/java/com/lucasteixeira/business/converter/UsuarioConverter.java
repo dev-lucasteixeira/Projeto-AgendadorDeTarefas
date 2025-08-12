@@ -3,9 +3,9 @@ package com.lucasteixeira.business.converter;
 import com.lucasteixeira.business.dto.EnderecoDTO;
 import com.lucasteixeira.business.dto.TelefoneDTO;
 import com.lucasteixeira.business.dto.UsuarioDTO;
-import com.lucasteixeira.com.lucasteixeira.infrastructure.entity.Endereco;
-import com.lucasteixeira.com.lucasteixeira.infrastructure.entity.Telefone;
-import com.lucasteixeira.com.lucasteixeira.infrastructure.entity.Usuario;
+import com.lucasteixeira.infrastructure.entity.Endereco;
+import com.lucasteixeira.infrastructure.entity.Telefone;
+import com.lucasteixeira.infrastructure.entity.Usuario;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

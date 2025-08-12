@@ -1,4 +1,4 @@
-package com.lucasteixeira.com.lucasteixeira.infrastructure.entity;
+package com.lucasteixeira.infrastructure.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

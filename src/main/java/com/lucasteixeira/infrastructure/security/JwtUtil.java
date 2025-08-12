@@ -1,4 +1,4 @@
-package com.lucasteixeira.com.lucasteixeira.infrastructure.security;
+package com.lucasteixeira.infrastructure.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
