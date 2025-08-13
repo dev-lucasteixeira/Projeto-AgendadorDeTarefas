@@ -1,7 +1,8 @@
-package com.lucasteixeira.com.lucasteixeira.infrastructure.security;
+package com.lucasteixeira.infrastructure.security;
 
-import com.lucasteixeira.com.lucasteixeira.infrastructure.entity.Usuario;
-import com.lucasteixeira.com.lucasteixeira.infrastructure.repository.repository.UsuarioRepository;
+
+import com.lucasteixeira.infrastructure.entity.Usuario;
+import com.lucasteixeira.infrastructure.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
