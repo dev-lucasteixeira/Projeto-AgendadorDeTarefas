@@ -35,3 +35,6 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Ignorar arquivo de configuração do banco
+application.properties
